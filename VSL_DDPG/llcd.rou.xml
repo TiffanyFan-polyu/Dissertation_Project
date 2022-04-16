@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 09/20/21 22:20:27 by Eclipse SUMO netedit Version 1.6.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="D:\FTT\sumo_test\llcd.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="D:\FTT\sumo_test\llcd.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <route-files value="D:\FTT\sumo_test\llcd.rou.xml"/>
+    </netedit> 
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="vtype1" lcStrategic="2" lcKeepRight="40" color="magenta" />    
+	
+	
+    <flow id="FF" begin="0.00" departLane="random" departSpeed="30.00" from="gneE0" to="gneE2"  vehsPerHour="3000"/>
+	<flow id="RR" begin="0.00" departLane="random" departSpeed="30.00" from="gneE3" to="gneE4"  vehsPerHour="100.00"/>
+
+	<flow id="FR" type="vtype1" begin="0.00" color="blue" departLane="random" departSpeed="30.00" from="gneE0" to="gneE4" vehsPerHour="540"/>
+	<flow id="RF" type="vtype1" begin="0.00" color="red" departLane="random"  departSpeed="30.00" from="gneE3" to="gneE2" vehsPerHour="1248"/>
+
+</routes>
+
+
+<!-- 增大仿真时间：
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="vtype1" lcStrategic="2" lcKeepRight="40" color="magenta" />    
+	
+	
+    <flow id="FF" begin="0.00" departSpeed="30.00" departLane="random" from="gneE0" to="gneE2" end="3600.00" vehsPerHour="3000"/>
+	<flow id="RR" begin="0.00" departSpeed="30.00" departLane="random" from="gneE3" to="gneE4" end="3600.00" vehsPerHour="100.00"/>
+
+	<flow id="FR" type="vtype1" begin="0.00" color="blue" departSpeed="30.00" departLane="random" from="gneE0" to="gneE4"  vehsPerHour="540"/>
+	<flow id="RF" type="vtype1" begin="0.00" color="red" departSpeed="30.00" departLane="random"  from="gneE3" to="gneE2" vehsPerHour="1248"/>
+
+</routes> -->
+
+<!-- <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="vtype0" laneChangeModel="LC2013" color="red" lcStrategic="150" />
+    <vType id="vtype1" laneChangeModel="LC2013" color="magenta" lcStrategic="1000" />    
+	
+
+	<flow id="FR" type="vtype1" begin="0.00" departSpeed="30.00" departLane="random" from="gneE0" to="gneE4" end="3600.00" vehsPerHour="100"/>
+	<flow id="RF" type="vtype1" begin="0.00" departSpeed="30.00" departLane="random"  from="gneE3" to="gneE2" end="3600.00" vehsPerHour="100"/>
+
+</routes> -->
+
+<!-- <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="vtype0" laneChangeModel="LC2013" lcStrategic="150" lcKeepRight="50"/>
+    <vType id="vtype1" laneChangeModel="LC2013"  lcStrategic="1000" lcKeepRight="100"/>    
+	
+    <flow id="FF" begin="0.00" departLane="random" from="gneE0" to="gneE2" end="3600.00" vehsPerHour="3000"/>
+	<flow id="RR" begin="0.00" departLane="random" from="gneE3" to="gneE4" end="3600.00" vehsPerHour="100.00"/>
+
+	<flow id="FR" begin="0.00" departLane="random" from="gneE0" to="gneE4" end="3600.00" vehsPerHour="270"/>
+	<flow id="FR_C" type="vtype1" begin="0.00" departLane="random" color="magenta" from="gneE0" to="gneE4" end="3600.00" vehsPerHour="270"/>
+
+	<flow id="RF" begin="0.00" departLane="random"  from="gneE3" to="gneE2" end="3600.00" vehsPerHour="624"/>
+    <flow id="RF_C" type="vtype0" begin="0.00" departLane="random" color="red" from="gneE3" to="gneE2" end="3600.00" vehsPerHour="624"/>
+
+</routes>
+ -->
+
+
+<!-- omnet：
+
+
+ <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="DEFAULT_VEHTYPE" vClass="passenger" laneChangeModel="LC2013"/>
+    <vType id="vType_0" laneChangeModel="LC2013" lcStrategic="50" lcKeepRight="50"/>
+    <vType id="vType_1" laneChangeModel="LC2013" lcStrategic="200" lcKeepRight="200"/>    
+    <flow id="flow_0" type="vType_0" begin="0.00" departLane="random" from="gneE0" to="gneE2" end="3600.00" vehsPerHour="530"/>
+    <flow id="flow_1" type="vType_1" begin="0.00" departLane="random" color="magenta" from="gneE0" to="gneE4" end="3600.00" vehsPerHour="54"/>
+    <flow id="flow_2" type="vType_0" begin="0.00" departLane="random" color="red" from="gneE3" to="gneE2" end="3600.00" vehsPerHour="124"/>
+    <flow id="flow_3" type="vType_0" begin="0.00" departLane="random" color="green" from="gneE3" to="gneE4" end="3600.00" vehsPerHour="10.00"/>
+</routes> -->

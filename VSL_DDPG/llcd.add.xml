@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 09/17/21 18:54:46 by Eclipse SUMO netedit Version 1.6.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <output>
+        <output-file value="D:\FTT\sumo_test\llcd.net.xml"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional>
+    <laneData id="MEASUREMENT_1" file="laneData.xml" />
+   
+    <inductionLoop id="myLoop1" lane="gneE1_0" pos="0" freq="60" file="./output/auxiliary.xml"/>
+    <inductionLoop id="myLoop2" lane="gneE1_0" pos="10" freq="60" file="./output/auxiliary.xml"/>
+	<inductionLoop id="myLoop3" lane="gneE1_0" pos="20" freq="60" file="./output/auxiliary.xml"/>
+    <inductionLoop id="myLoop4" lane="gneE1_0" pos="30" freq="60" file="./output/auxiliary.xml"/>
+	<inductionLoop id="myLoop5" lane="gneE1_0" pos="40" freq="60" file="./output/auxiliary.xml"/>
+    <inductionLoop id="myLoop6" lane="gneE1_0" pos="50" freq="60" file="./output/auxiliary.xml"/>
+	<inductionLoop id="myLoop7" lane="gneE1_0" pos="60" freq="60" file="./output/auxiliary.xml"/>
+    <inductionLoop id="myLoop8" lane="gneE1_0" pos="70" freq="60" file="./output/auxiliary.xml"/>
+	<inductionLoop id="myLoop9" lane="gneE1_0" pos="80" freq="60" file="./output/auxiliary.xml"/>
+    <inductionLoop id="myLoop10" lane="gneE1_0" pos="90" freq="60" file="./output/auxiliary.xml"/>
+	<inductionLoop id="myLoop11" lane="gneE1_0" pos="100" freq="60" file="./output/auxiliary.xml"/>
+    <inductionLoop id="myLoop12" lane="gneE1_0" pos="110" freq="60" file="./output/auxiliary.xml"/>
+	<inductionLoop id="myLoop13" lane="gneE1_0" pos="120" freq="60" file="./output/auxiliary.xml"/>
+    <inductionLoop id="myLoop14" lane="gneE1_0" pos="130" freq="60" file="./output/auxiliary.xml"/>
+	<inductionLoop id="myLoop15" lane="gneE1_0" pos="140" freq="60" file="./output/auxiliary.xml"/>
+    <inductionLoop id="myLoop16" lane="gneE1_0" pos="150" freq="60" file="./output/auxiliary.xml"/>
+	<inductionLoop id="myLoop17" lane="gneE1_0" pos="160" freq="60" file="./output/auxiliary.xml"/>
+    <inductionLoop id="myLoop18" lane="gneE1_0" pos="170" freq="60" file="./output/auxiliary.xml"/>
+    <inductionLoop id="myLoop19" lane="gneE1_0" pos="180" freq="60" file="./output/auxiliary.xml"/>
+    <inductionLoop id="myLoop20" lane="gneE1_0" pos="190" freq="60" file="./output/auxiliary.xml"/>
+	<inductionLoop id="myLoop21" lane="gneE1_0" pos="200" freq="60" file="./output/auxiliary.xml"/>
+    <inductionLoop id="myLoop22" lane="gneE1_0" pos="210" freq="60" file="./output/auxiliary.xml"/>
+	<inductionLoop id="myLoop23" lane="gneE1_0" pos="220" freq="60" file="./output/auxiliary.xml"/>
+    <inductionLoop id="myLoop24" lane="gneE1_0" pos="230" freq="60" file="./output/auxiliary.xml"/>
+	<inductionLoop id="myLoop25" lane="gneE1_0" pos="240" freq="60" file="./output/auxiliary.xml"/>
+    <inductionLoop id="myLoop26" lane="gneE1_0" pos="250" freq="60" file="./output/auxiliary.xml"/>
+	<inductionLoop id="myLoop27" lane="gneE1_0" pos="260" freq="60" file="./output/auxiliary.xml"/>
+    <inductionLoop id="myLoop28" lane="gneE1_0" pos="270" freq="60" file="./output/auxiliary.xml"/>
+	<inductionLoop id="myLoop29" lane="gneE1_0" pos="280" freq="60" file="./output/auxiliary.xml"/>
+    <inductionLoop id="myLoop30" lane="gneE1_0" pos="290" freq="60" file="./output/auxiliary.xml"/>
+	<inductionLoop id="myLoop31" lane="gneE1_0" pos="300" freq="60" file="./output/auxiliary.xml"/>
+    <inductionLoop id="myLoop32" lane="gneE1_0" pos="310" freq="60" file="./output/auxiliary.xml"/>
+	<inductionLoop id="myLoop33" lane="gneE1_0" pos="320" freq="60" file="./output/auxiliary.xml"/>
+    <inductionLoop id="myLoop34" lane="gneE1_0" pos="330" freq="60" file="./output/auxiliary.xml"/>
+	<inductionLoop id="myLoop35" lane="gneE1_0" pos="340" freq="60" file="./output/auxiliary.xml"/>
+    <inductionLoop id="myLoop36" lane="gneE1_0" pos="350" freq="60" file="./output/auxiliary.xml"/>
+	<inductionLoop id="myLoop37" lane="gneE1_0" pos="360" freq="60" file="./output/auxiliary.xml"/>
+    <inductionLoop id="myLoop38" lane="gneE1_0" pos="370" freq="60" file="./output/auxiliary.xml"/>
+    <inductionLoop id="myLoop39" lane="gneE1_0" pos="380" freq="60" file="./output/auxiliary.xml"/>
+    <inductionLoop id="myLoop40" lane="gneE1_0" pos="390" freq="60" file="./output/auxiliary.xml"/>
+	<inductionLoop id="myLoop41" lane="gneE1_0" pos="400" freq="60" file="./output/auxiliary.xml"/>
+	
+	<inductionLoop id="mainline1" lane="gneE1_1" pos="0" freq="60" file="./output/left.xml"/>
+    <inductionLoop id="mainline2" lane="gneE1_1" pos="10" freq="60" file="./output/left.xml"/>
+	<inductionLoop id="mainline3" lane="gneE1_1" pos="20" freq="60" file="./output/left.xml"/>
+    <inductionLoop id="mainline4" lane="gneE1_1" pos="30" freq="60" file="./output/left.xml"/>
+	<inductionLoop id="mainline5" lane="gneE1_1" pos="40" freq="60" file="./output/left.xml"/>
+    <inductionLoop id="mainline6" lane="gneE1_1" pos="50" freq="60" file="./output/left.xml"/>
+	<inductionLoop id="mainline7" lane="gneE1_1" pos="60" freq="60" file="./output/left.xml"/>
+    <inductionLoop id="mainline8" lane="gneE1_1" pos="70" freq="60" file="./output/left.xml"/>
+	<inductionLoop id="mainline9" lane="gneE1_1" pos="80" freq="60" file="./output/left.xml"/>
+    <inductionLoop id="mainline10" lane="gneE1_1" pos="90" freq="60" file="./output/left.xml"/>
+	<inductionLoop id="mainline11" lane="gneE1_1" pos="100" freq="60" file="./output/left.xml"/>
+    <inductionLoop id="mainline12" lane="gneE1_1" pos="110" freq="60" file="./output/left.xml"/>
+	<inductionLoop id="mainline13" lane="gneE1_1" pos="120" freq="60" file="./output/left.xml"/>
+    <inductionLoop id="mainline14" lane="gneE1_1" pos="130" freq="60" file="./output/left.xml"/>
+	<inductionLoop id="mainline15" lane="gneE1_1" pos="140" freq="60" file="./output/left.xml"/>
+    <inductionLoop id="mainline16" lane="gneE1_1" pos="150" freq="60" file="./output/left.xml"/>
+	<inductionLoop id="mainline17" lane="gneE1_1" pos="160" freq="60" file="./output/left.xml"/>
+    <inductionLoop id="mainline18" lane="gneE1_1" pos="170" freq="60" file="./output/left.xml"/>
+    <inductionLoop id="mainline19" lane="gneE1_1" pos="180" freq="60" file="./output/left.xml"/>
+    <inductionLoop id="mainline20" lane="gneE1_1" pos="190" freq="60" file="./output/left.xml"/>
+	<inductionLoop id="mainline21" lane="gneE1_1" pos="200" freq="60" file="./output/left.xml"/>
+    <inductionLoop id="mainline22" lane="gneE1_1" pos="210" freq="60" file="./output/left.xml"/>
+	<inductionLoop id="mainline23" lane="gneE1_1" pos="220" freq="60" file="./output/left.xml"/>
+    <inductionLoop id="mainline24" lane="gneE1_1" pos="230" freq="60" file="./output/left.xml"/>
+	<inductionLoop id="mainline25" lane="gneE1_1" pos="240" freq="60" file="./output/left.xml"/>
+    <inductionLoop id="mainline26" lane="gneE1_1" pos="250" freq="60" file="./output/left.xml"/>
+	<inductionLoop id="mainline27" lane="gneE1_1" pos="260" freq="60" file="./output/left.xml"/>
+    <inductionLoop id="mainline28" lane="gneE1_1" pos="270" freq="60" file="./output/left.xml"/>
+	<inductionLoop id="mainline29" lane="gneE1_1" pos="280" freq="60" file="./output/left.xml"/>
+	<inductionLoop id="mainline30" lane="gneE1_1" pos="290" freq="60" file="./output/left.xml"/>
+	<inductionLoop id="mainline31" lane="gneE1_1" pos="300" freq="60" file="./output/left.xml"/>
+    <inductionLoop id="mainline32" lane="gneE1_1" pos="310" freq="60" file="./output/left.xml"/>
+	<inductionLoop id="mainline33" lane="gneE1_1" pos="320" freq="60" file="./output/left.xml"/>
+    <inductionLoop id="mainline34" lane="gneE1_1" pos="330" freq="60" file="./output/left.xml"/>
+	<inductionLoop id="mainline35" lane="gneE1_1" pos="340" freq="60" file="./output/left.xml"/>
+    <inductionLoop id="mainline36" lane="gneE1_1" pos="350" freq="60" file="./output/left.xml"/>
+	<inductionLoop id="mainline37" lane="gneE1_1" pos="360" freq="60" file="./output/left.xml"/>
+    <inductionLoop id="mainline38" lane="gneE1_1" pos="370" freq="60" file="./output/left.xml"/>
+    <inductionLoop id="mainline39" lane="gneE1_1" pos="380" freq="60" file="./output/left.xml"/>
+    <inductionLoop id="mainline40" lane="gneE1_1" pos="390" freq="60" file="./output/left.xml"/>
+	<inductionLoop id="mainline41" lane="gneE1_1" pos="400" freq="60" file="./output/left.xml"/>
+ 
+ 	<inductionLoop id="mostleft1" lane="gneE1_2" pos="0" freq="60" file="NUL"/>
+    <inductionLoop id="mostleft6" lane="gneE1_2" pos="50" freq="60" file="NUL"/>
+	<inductionLoop id="mostleft11" lane="gneE1_2" pos="100" freq="60" file="NUL"/>
+    <inductionLoop id="mostleft16" lane="gneE1_2" pos="150" freq="60" file="NUL"/>
+	<inductionLoop id="mostleft21" lane="gneE1_2" pos="200" freq="60" file="NUL"/>
+    <inductionLoop id="mostleft26" lane="gneE1_2" pos="250" freq="60" file="NUL"/>
+	<inductionLoop id="mostleft31" lane="gneE1_2" pos="300" freq="60" file="NUL"/>
+	<inductionLoop id="mostleft36" lane="gneE1_2" pos="350" freq="60" file="NUL"/>
+	<inductionLoop id="onramp" lane="gneE3_0" pos="190" freq="60" file="NUL"/>
+    <inductionLoop id="in1" lane="gneE0_0" pos="170" freq="60" file="NUL"/>
+	<inductionLoop id="in2" lane="gneE0_1" pos="170" freq="60" file="NUL"/>
+	<inductionLoop id="offramp" lane="gneE4_0" pos="3" freq="60" file="NUL"/>
+    <inductionLoop id="out1" lane="gneE2_0" pos="3" freq="60" file="NUL"/>
+	<inductionLoop id="out2" lane="gneE2_1" pos="3" freq="60" file="NUL"/>   
+	
+	
+</additional>
