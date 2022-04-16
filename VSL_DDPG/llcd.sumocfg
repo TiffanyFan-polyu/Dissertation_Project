@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 09/17/21 18:57:53 by Eclipse SUMO GUI Version 1.6.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="D:\FTT\sumo_test\llcd\llcd.net.xml"/>
+        <route-files value="D:\FTT\sumo_test\llcd\llcd.rou.xml"/>
+		<additional-files value="D:\FTT\sumo_test\llcd\llcd.add.xml"/>
+    </input>
+
+    <output>
+        <lanechange-output value="D:\FTT\sumo_test\llcd\llcd.lanechange.xml"/>	
+		<summary-output value="D:\FTT\sumo_test\llcd\output_sumo.xml"/>
+    </output>
+	
+	<time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+	
+	<processing>
+        <time-to-teleport value="-1"/>
+    </processing>
+
+
+    <report>
+        <no-duration-log value="true"/>
+        <no-step-log value="true"/>
+		<no-warnings value="true"/>
+    </report>
+	
+	<random_number>
+        <random value="false"/>
+        <seed value="0"/>
+    </random_number>
+	
+<!-- 	<processing>
+
+        <lanechange.duration value="1"/>
+
+    </processing> -->
+<!-- 	 
+	<time>
+        <begin value="0"/>
+        <end value="5000"/>
+        <step-length value="1"/>
+    </time>
+ -->
+<!--     <report>
+        <xml-validation value="never"/>
+        <xml-validation.net value="never"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <start value="true"/>
+    </gui_only> -->
+	 
+</configuration>
