@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="vtype1" lcStrategic="2" lcKeepRight="40" color="magenta" />    
+	
+	
+    <flow id="FF" begin="0.00" departLane="random" departSpeed="30.00" from="gneE0" to="gneE2" vehsPerHour="3000"/>
+	<flow id="RR" begin="0.00" departLane="random" departSpeed="30.00" from="gneE3" to="gneE4" vehsPerHour="100.00"/>
+
+	<flow id="FR" type="vtype1" begin="0.00" color="blue" departLane="random" departSpeed="30.00" from="gneE0" to="gneE4" vehsPerHour="540"/>
+	<flow id="RF" type="vtype1" begin="0.00" color="red" departLane="random"  departSpeed="30.00" from="gneE3" to="gneE2" vehsPerHour="1248"/>
+
+</routes>
